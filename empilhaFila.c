@@ -96,7 +96,7 @@ void imprimir(Fila *fila, Pilha *pilha) {
 
 
 
-void criar_pilha(Pilha *pilha,Fila *fila) {
+void criar_pilha(Pilha *pilha) {
     pilha->topo = NULL;
 }
 
