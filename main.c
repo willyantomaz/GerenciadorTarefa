@@ -11,7 +11,7 @@ int main(void) {
     char descricao[100];
 
     criar_fila(&fila);
-    criar_pilha(&pilha,&fila);  
+    criar_pilha(&pilha);  
 
     do {
         printf("\n0 - Sair\n1 - inserir\n2 - remover\n3 - Imprimir\n");
