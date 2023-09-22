@@ -21,6 +21,6 @@ void criar_fila(Fila *fila);
 void inserir(Fila *fila, char descricao[100],Pilha *pilha);
 Tarefa* remover(Fila *fila,Pilha *pilha);
 void imprimir(Fila *fila, Pilha *pilha);
-void criar_pilha(Pilha *pilha,Fila *fila);
+void criar_pilha(Pilha *pilha);
 
 #endif
